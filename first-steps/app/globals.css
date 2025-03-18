@@ -24,3 +24,11 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.link {
+  @apply hover:underline hover:text-blue-400 mr-2 transition duration-200 ease-in-out transform hover:scale-100;
+}
+
+.active-link {
+  @apply text-blue-500;
+}
